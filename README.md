@@ -36,7 +36,7 @@ Table 3 shows the results for the model extraction attack: knockoff. Since the m
 
 10. **$\sigma$ parameter**
 
-We define $\sigma=0.9$ in our experiments. When WSR>$\sigma$, the ownership can be verified. According to our experimental results, most of the WSRs we achieved are close to 1.0.
+We define $\sigma=0.9$ in our experiments. When WSR> $\sigma$, the ownership can be verified. According to our experimental results, most of the WSRs we achieved are close to 1.0.
 
 11. **Are 𝑀𝑠 = ( 𝑓𝑠 , ℎ𝑠 ) and 𝑀𝑠 = ( 𝑓𝑠 , 𝐷) equivalent?**
 
