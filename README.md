@@ -4,7 +4,7 @@
 
 For these scenarios, the server pre-generates a large pool of unique keys, exceeding the potential number of clients, which is feasible in a cross-silo setting with typically hundreds of clients. Each new client receives a unique key from this pool, distinct from those previously assigned. If clients drop out, their keys are reserved, avoiding reassignment even if they rejoin later. This approach prevents watermark collisions, whether clients drop out randomly or a subset is selected for each training round.
 To verify this point, we also add one experiment w.r.t. different participation portion of clients in FL in the following table.
-Participation portion|Acc|$\Delta$Acc|WSR|WSR\_Gap|TAcc|
+Participation portion|Acc|$\Delta$ Acc|WSR|WSR\_Gap|TAcc|
 -|-|-|-|-|-|
 100\%|0.5583|0.0003|1.0000|0.9998|1.0000|
  20\%|0.4899|0.0666|1.0000|1.0000|1.0000|
